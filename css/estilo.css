@@ -1,0 +1,39 @@
+
+
+.caixa-definicao-periodo {
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: lightgray;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.desaparecer {
+    display: none;
+}
+
+.aparecer {
+    display: block;
+}
+
+.desfocar {
+    filter: blur(3px);
+}
+
+.botoes {
+    padding: .7rem;
+}
+
+.fomrulario-venda {
+    width: 5rem;
+}
+
+.tabela-vendas > tr > td{
+    padding: 0.3rem;
+}
